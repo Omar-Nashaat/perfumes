@@ -1,0 +1,25 @@
+/* .home {
+    font-family: "Lora", serif;
+} */
+
+.firstScreen{
+    background-image: url('./imgs/homeBg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.firstScreen h2{
+    font-size: 70px;
+    color: white;
+}
+
+.products{
+    background-color: rgb(255, 238, 241);
+}
+
+.sectionLine{
+    height: 2px;
+    width: 90%;
+    background-color: tomato;
+}
