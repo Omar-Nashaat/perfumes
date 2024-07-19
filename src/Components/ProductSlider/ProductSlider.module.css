@@ -1,0 +1,24 @@
+.btnEdit {
+    text-align: center;
+    top: 100px;
+    left: 180px;
+}
+
+.btnEdit h6 {
+    font-family: "Yeseva One", serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btnEdit h2 {
+    font-family: "Yeseva One", serif;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.btnEdit button {
+    background-color: #BE5B75;
+    color: white;
+    padding: 7px 40px;
+    text-transform: uppercase;
+}

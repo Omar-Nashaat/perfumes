@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './Components/Home/Home'
 import LayOut from './Components/LayOut/LayOut'
 import ContactUs from './Components/ContactUs/ContactUs'
+import AnotherHome from './Components/AnotherHome/AnotherHome'
 
 export default function App() {
 
@@ -11,6 +12,7 @@ export default function App() {
       path: '', element: <LayOut />, children: [
         { path: '', element: <Home /> },
         { path: 'home', element: <Home /> },
+        { path: 'AnotherHome', element: <AnotherHome /> },
         { path: 'ContactUs', element: <ContactUs /> },
       ]
     }
